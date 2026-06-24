@@ -1,0 +1,39 @@
+{
+  "name": "Panfitrion",
+  "subtitle": "Aplicaciones de Panfitrion",
+  "description": "Distribución interna de Panfitrion.",
+  "iconURL": "https://raw.githubusercontent.com/Panfitrion/panfitrion-ios/main/panfitrion-logo.png",
+  "website": "https://github.com/Panfitrion/panfitrion-ios",
+  "tintColor": "#E3C691",
+  "featuredApps": [
+    "com.SideStore.SideStore.8K83S65ANG"
+  ],
+  "apps": [
+    {
+      "name": "Panfitrion Tickets",
+      "bundleIdentifier": "com.SideStore.SideStore.8K83S65ANG",
+      "developerName": "Panfitrion",
+      "subtitle": "Pedidos y entregas",
+      "localizedDescription": "Aplicación interna para gestionar pedidos, entregas, cuentas y pagos de Panfitrion.",
+      "iconURL": "https://raw.githubusercontent.com/Panfitrion/panfitrion-ios/main/panfitrion-logo.png",
+      "tintColor": "#E3C691",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "1.0",
+          "buildVersion": "1",
+          "date": "2026-06-24",
+          "downloadURL": "https://github.com/Panfitrion/panfitrion-ios/releases/download/v1.0.0/Panfitrion-Tickets.ipa",
+          "size": 872094,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Conexión con la Mac de Panfitrion."
+        }
+      }
+    }
+  ]
+}
